@@ -130,10 +130,8 @@ body {
 
 /* Aboout */
 .about {
-  background-image: url(https://i.pinimg.com/1200x/34/f2/ec/34f2eced28ba829ab31e04289d2560f9.jpg);
-  background-attachment: fixed;
+  padding: 1rem 7% 1.4rem;
 }
-.about,
 .menu,
 .contact {
   padding: 8rem 7% 1.4rem;
@@ -175,6 +173,10 @@ body {
 }
 
 /* menu section */
+.menu {
+  background-image: url(https://i.pinimg.com/1200x/34/f2/ec/34f2eced28ba829ab31e04289d2560f9.jpg);
+  background-attachment: fixed;
+}
 .menu h2,
 .contact h2 {
   margin-bottom: 1rem;
@@ -197,6 +199,7 @@ body {
 }
 .menu .row .menu-card {
   text-align: center;
+
   padding-bottom: 2rem;
 }
 
