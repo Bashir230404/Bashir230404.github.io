@@ -136,24 +136,19 @@ body {
 /* Aboout */
 .about {
   padding: 1rem 7% 1.4rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
+}
+.about-img,
+.content h3,
+.content p {
+  background-color: #2851342f;
+  padding: 3rem;
 }
 .menu {
-}
-.container-dua {
-  display: flex;
-  margin-top: 20px;
-}
-.menu-content {
-  flex: 2;
-  margin-top: 5rem;
-  background-color: #222;
-  padding: 10px;
-}
-.menu-utama {
-  flex: 8;
-  padding-top: 15px;
-  background-color: #98c0a45c;
+  /* background-image: url(https://i.pinimg.com/1200x/82/71/04/827104666a533370c8a9ff00e3a37e36.jpg);
+  background-size: 130%;
+  background-repeat: no-repeat;
+  backdrop-filter: 1px; */
 }
 .menu,
 .contact {
@@ -196,6 +191,18 @@ body {
 }
 
 /* menu section */
+.container-dua {
+  display: flex;
+}
+.container-tiga {
+  background-color: rgba(128, 128, 128, 0.598);
+}
+.menu-best {
+  flex: 2;
+  padding: 2rem;
+  font-size: 20px;
+  background-color: rgba(43, 43, 43, 0.658);
+}
 .menu {
 }
 .menu h2,
@@ -206,7 +213,7 @@ body {
 .contact p {
   text-align: center;
   max-width: 30rem;
-  margin: auto;
+  margin: 2rem auto;
   font-size: 1rem;
   font-weight: 100;
   line-height: 1.6;
@@ -214,13 +221,13 @@ body {
 
 .menu .row {
   display: flex;
+  flex: 8;
   flex-wrap: wrap;
   margin-top: 5rem;
   justify-content: center;
 }
 .menu .row .menu-card {
   text-align: center;
-
   padding-bottom: 2rem;
 }
 
@@ -280,7 +287,7 @@ body {
 
 /* footer */
 footer {
-  background-color: #50685785;
+  background-color: #214a2d7d;
   padding: 2rem 3rem;
   margin-top: 1rem;
 }
@@ -427,7 +434,7 @@ footer .credit a {
     height: 30rem;
   }
   .contact .row form {
-    margin-top: 0;
+    margin: 1rem;
   }
   .container-footer {
     display: flex;
