@@ -424,6 +424,16 @@ footer .credit a {
   .about .row .content p {
     font-size: 1.6rem;
   }
+  .container-dua {
+    /* display: flex;
+    flex-wrap: nowrap; */
+    flex-direction: column;
+    width: 89%;
+  }
+  .container-dua img {
+    display: flex;
+    justify-self: center;
+  }
   .menu p {
     font-size: 1.2rem;
   }
