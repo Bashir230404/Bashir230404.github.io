@@ -202,8 +202,11 @@ body {
   padding: 2rem;
   font-size: 20px;
   background-color: rgba(43, 43, 43, 0.658);
+  margin-top: 5rem;
 }
 .menu-utama {
+  background-color: #61b65b56;
+  padding: 2rem 4rem;
 }
 .menu h2,
 .contact h2 {
