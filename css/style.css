@@ -197,13 +197,13 @@ body {
 .container-tiga {
   background-color: rgba(128, 128, 128, 0.598);
 }
-.menu-best {
+.menu-content {
   flex: 2;
   padding: 2rem;
   font-size: 20px;
   background-color: rgba(43, 43, 43, 0.658);
 }
-.menu {
+.menu-utama {
 }
 .menu h2,
 .contact h2 {
@@ -428,7 +428,7 @@ footer .credit a {
     /* display: flex;
     flex-wrap: nowrap; */
     flex-direction: column;
-    width: 89%;
+    width: 49%;
   }
   .container-dua img {
     display: flex;
