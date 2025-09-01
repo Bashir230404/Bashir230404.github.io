@@ -243,6 +243,14 @@ body {
 }
 
 /* Contact Section */
+.container-satu {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 2rem;
+}
+.container-satu img {
+  height: 150px;
+}
 .contact .row {
   display: flex;
   margin-top: 2rem;
