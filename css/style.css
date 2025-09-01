@@ -136,6 +136,19 @@ body {
 /* Aboout */
 .about {
   padding: 1rem 7% 1.4rem;
+  margin-top: 4rem;
+}
+.about-img,
+.content h3,
+.content p {
+  background-color: #2851342f;
+  padding: 3rem;
+}
+.menu {
+  /* background-image: url(https://i.pinimg.com/1200x/82/71/04/827104666a533370c8a9ff00e3a37e36.jpg);
+  background-size: 130%;
+  background-repeat: no-repeat;
+  backdrop-filter: 1px; */
 }
 .menu,
 .contact {
@@ -178,7 +191,22 @@ body {
 }
 
 /* menu section */
-.menu {
+.container-dua {
+  display: flex;
+}
+.container-tiga {
+  background-color: rgba(128, 128, 128, 0.598);
+}
+.menu-content {
+  flex: 2;
+  padding: 2rem;
+  font-size: 20px;
+  background-color: rgba(43, 43, 43, 0.658);
+  margin-top: 5rem;
+}
+.menu-utama {
+  background-color: #61b65b56;
+  padding: 2rem 4rem;
 }
 .menu h2,
 .contact h2 {
@@ -188,7 +216,7 @@ body {
 .contact p {
   text-align: center;
   max-width: 30rem;
-  margin: auto;
+  margin: 2rem auto;
   font-size: 1rem;
   font-weight: 100;
   line-height: 1.6;
@@ -196,13 +224,13 @@ body {
 
 .menu .row {
   display: flex;
+  flex: 8;
   flex-wrap: wrap;
   margin-top: 5rem;
   justify-content: center;
 }
 .menu .row .menu-card {
   text-align: center;
-
   padding-bottom: 2rem;
 }
 
@@ -215,10 +243,19 @@ body {
 }
 
 /* Contact Section */
+.container-satu {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 2rem;
+}
+.container-satu img {
+  height: 150px;
+}
 .contact .row {
   display: flex;
   margin-top: 2rem;
-  background-color: #222;
+  background-color: #22222294;
+  padding: 2rem;
 }
 .contact .row .map {
   flex: 1 1 45rem;
@@ -261,7 +298,7 @@ body {
 
 /* footer */
 footer {
-  background-color: var(--primary);
+  background-color: #214a2d7d;
   padding: 2rem 3rem;
   margin-top: 1rem;
 }
@@ -398,6 +435,16 @@ footer .credit a {
   .about .row .content p {
     font-size: 1.6rem;
   }
+  .container-dua {
+    /* display: flex;
+    flex-wrap: nowrap; */
+    flex-direction: column;
+    width: 49%;
+  }
+  .container-dua img {
+    display: flex;
+    justify-self: center;
+  }
   .menu p {
     font-size: 1.2rem;
   }
@@ -408,7 +455,7 @@ footer .credit a {
     height: 30rem;
   }
   .contact .row form {
-    margin-top: 0;
+    margin: 1rem;
   }
   .container-footer {
     display: flex;

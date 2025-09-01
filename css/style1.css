@@ -116,6 +116,7 @@ body {
   justify-content: center;
 }
 .menu .row .menu-card {
+  padding-top: 50px;
   text-align: center;
   padding-bottom: 2rem;
 }
@@ -126,6 +127,23 @@ body {
 .menu .row .menu-card .menu-title {
   margin: 1rem auto 0.5rem;
 }
+.menu-card button {
+  width: 9rem;
+  background-color: var(--primary);
+  color: aliceblue;
+}
+.menu-card button a {
+  color: whitesmoke;
+}
+#sekat1 {
+  background-image: url(https://i.pinimg.com/1200x/32/0e/c0/320ec080b05fbbbf2c741490d6bcf5f4.jpg);
+  background-attachment: fixed;
+}
+#sekat2 {
+  background-image: url(https://i.pinimg.com/1200x/32/0e/c0/320ec080b05fbbbf2c741490d6bcf5f4.jpg);
+  background-attachment: fixed;
+}
+
 /* media queries
 
 /* laptop */
