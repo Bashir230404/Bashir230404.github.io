@@ -194,9 +194,7 @@ body {
 .container-dua {
   display: flex;
 }
-.container-tiga {
-  background-color: rgba(128, 128, 128, 0.598);
-}
+
 .menu-content {
   flex: 2;
   padding: 2rem;
@@ -245,30 +243,35 @@ body {
 /* Contact Section */
 .container-satu {
   display: flex;
-  padding: 5rem;
+}
+.container-satu h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  margin-top: 5rem;
 }
 .container-tiga {
-  max-width: 800px;
-  margin: 50px auto;
+  /* margin: 10px auto; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 1rem;
 }
 .thumbnail {
-  width: 50%;
+  width: 30%;
   display: flex;
   flex-wrap: wrap-reverse;
-  flex: 5;
+
   padding: 1rem;
 }
 .thumbnail img {
   width: 100%;
+  height: 90%;
 }
 
 .contact .row {
   display: flex;
   margin-top: 2rem;
-  background-color: #22222294;
+
   padding: 2rem;
 }
 .contact .row .map {
