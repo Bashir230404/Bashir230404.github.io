@@ -256,6 +256,10 @@ body {
 }
 .thumbnail {
   width: 50%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex: 5;
+  padding: 1rem;
 }
 .thumbnail img {
   width: 100%;
