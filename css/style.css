@@ -250,7 +250,6 @@ body {
   margin-top: 5rem;
 }
 .container-tiga {
-  /* margin: 10px auto; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -438,14 +437,13 @@ footer .credit a {
     height: 24rem;
     object-fit: cover;
     object-position: center;
-    margin-bottom: 15rem;
+    margin-bottom: 2rem;
   }
 
   .about .row .content {
   }
 
   .about .row .content h3 {
-    margin-top: 2rem;
     font-size: 2rem;
   }
 
@@ -456,7 +454,8 @@ footer .credit a {
     /* display: flex;
     flex-wrap: nowrap; */
     flex-direction: column;
-    width: 49%;
+
+    width: 90%;
   }
   .container-dua img {
     display: flex;
@@ -464,6 +463,9 @@ footer .credit a {
   }
   .menu p {
     font-size: 1.2rem;
+  }
+  .thumbnail {
+    flex-direction: column;
   }
   .contact .row {
     flex-wrap: wrap;
