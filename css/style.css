@@ -340,8 +340,8 @@ footer ul li {
 .sekat2 p a,
 .sekat3 p a,
 .sekat4 p a {
-  margin-left: 2.5rem;
-  max-width: 700px;
+  margin-left: 2rem;
+  max-width: 600px;
   font-size: 1.4rem;
   color: white;
   line-height: 3rem;
@@ -432,6 +432,7 @@ footer .credit a {
   }
   .about .row {
     flex-wrap: wrap;
+    width: 90%;
   }
   .about .row .about-img {
     height: 24rem;
@@ -454,12 +455,15 @@ footer .credit a {
     /* display: flex;
     flex-wrap: nowrap; */
     flex-direction: column;
-
     width: 90%;
   }
   .container-dua img {
     display: flex;
     justify-self: center;
+  }
+  .thumbnail {
+    flex-direction: column;
+    width: 200px;
   }
   .menu p {
     font-size: 1.2rem;
@@ -476,12 +480,19 @@ footer .credit a {
   .contact .row form {
     margin: 1rem;
   }
+  .footer {
+    width: 40%;
+  }
   .container-footer {
     display: flex;
+    flex-direction: column;
+    /* width: 50%; */
   }
   .container-footer h2 {
     font-size: 14px;
-    align-items: baseline;
+    /* align-items: baseline; */
+  }
+  .sekat4 p {
   }
 }
 
