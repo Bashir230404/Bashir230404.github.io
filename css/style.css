@@ -359,6 +359,9 @@ footer ul li {
   line-height: 2rem;
   font-size: 14px;
 }
+.sosial {
+  margin-top: 1rem;
+}
 
 /* 
 footer .sosial a,
@@ -463,7 +466,7 @@ footer .credit a {
   }
   .thumbnail {
     flex-direction: column;
-    width: 200px;
+    width: 240px;
   }
   .menu p {
     font-size: 1.2rem;
@@ -480,19 +483,32 @@ footer .credit a {
   .contact .row form {
     margin: 1rem;
   }
-  .footer {
-    width: 40%;
-  }
+
   .container-footer {
-    display: flex;
     flex-direction: column;
-    /* width: 50%; */
   }
   .container-footer h2 {
     font-size: 14px;
     /* align-items: baseline; */
   }
-  .sekat4 p {
+
+  /* .sekat1 p a,
+  .sekat2 p a,
+  .sekat3 p a,
+  .sekat4 p a {
+    margin-left: 1px;
+  } */
+  .sekat1,
+  .sekat2,
+  .sekat3 {
+    margin-left: 1px;
+  }
+  .sekat4 {
+    margin-left: 2rem;
+  }
+
+  .sosial {
+    margin-top: 1rem;
   }
 }
 
