@@ -114,6 +114,7 @@ body {
   flex-wrap: wrap;
   margin-top: 2rem;
   justify-content: center;
+  background-image: url(https://i.pinimg.com/736x/12/c1/c9/12c1c9feb30d0f43877c9483fb49da60.jpg);
 }
 .menu .row .menu-card {
   padding-top: 50px;
@@ -135,15 +136,23 @@ body {
 .menu-card button a {
   color: whitesmoke;
 }
+
 #sekat1 {
-  background-image: url(https://i.pinimg.com/1200x/32/0e/c0/320ec080b05fbbbf2c741490d6bcf5f4.jpg);
-  background-attachment: fixed;
+  background-color: transparent;
+  /* background-attachment: fixed; */
 }
 #sekat2 {
-  background-image: url(https://i.pinimg.com/1200x/32/0e/c0/320ec080b05fbbbf2c741490d6bcf5f4.jpg);
-  background-attachment: fixed;
+  background-color: transparent;
+  /* background-attachment: fixed; */
 }
-
+.menu-title,
+.menu-card-price {
+  font-weight: bold;
+  text-shadow: 2px 2px #285134;
+}
+.menu-card img {
+  border-radius: 35%;
+}
 /* media queries
 
 /* laptop */
