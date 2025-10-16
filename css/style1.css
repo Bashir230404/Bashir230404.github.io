@@ -153,6 +153,60 @@ body {
 .menu-card img {
   border-radius: 35%;
 }
+#list {
+  text-decoration: underline;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 500px;
+  border-radius: 8px;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover {
+  color: black;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+form {
+  color: black;
+  padding: 0.5rem;
+  font-size: 16px;
+  width: 15rem;
+}
+input,
+textarea {
+  border: 1px black solid;
+  width: 30rem;
+  height: 3rem;
+  font-size: 17px;
+  margin-bottom: 1rem;
+}
+#btn {
+  background-color: #61b65b;
+}
 /* media queries
 
 /* laptop */
